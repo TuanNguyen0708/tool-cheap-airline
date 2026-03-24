@@ -1,0 +1,5 @@
+node_modules/
+.flight-zero-cache.json
+flight-zero-watchlist.json
+flight-alerts.jsonl
+.env

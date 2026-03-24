@@ -1,0 +1,14 @@
+{
+  "name": "tool-cheap-airline",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CLI tool to hunt public 0đ flight promos and emit alerts.",
+  "license": "MIT",
+  "scripts": {
+    "hunt": "node flight-zero-hunter.js",
+    "alert:dry": "node telegram-alert-sender.js --file flight-alerts.jsonl --dry-run"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

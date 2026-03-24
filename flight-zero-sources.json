@@ -1,0 +1,52 @@
+[
+  {
+    "name": "VietJet Promotions",
+    "url": "https://www.vietjetair.com/vi/pages/khuyen-mai-1638584517348",
+    "type": "html",
+    "airline": "VietJet Air",
+    "parser": "vietjet-static",
+    "routeHints": ["SGN", "DAD", "HAN", "CXR", "PQC", "HUI", "HPH", "VCA", "VII", "BMV"],
+    "strictRoute": true,
+    "qualityPenalty": 0
+  },
+  {
+    "name": "VietJet News",
+    "url": "https://www.vietjetair.com/vi/news",
+    "type": "html",
+    "airline": "VietJet Air",
+    "parser": "vietjet-static",
+    "routeHints": ["SGN", "DAD", "HAN", "CXR", "PQC", "HUI", "HPH", "VCA", "VII", "BMV"],
+    "strictRoute": true,
+    "qualityPenalty": 0
+  },
+  {
+    "name": "Bamboo Airways Promotions",
+    "url": "https://www.bambooairways.com/vn-vi/khuyen-mai",
+    "type": "html",
+    "airline": "Bamboo Airways",
+    "parser": "bamboo-static",
+    "routeHints": ["SGN", "DAD", "HAN", "CXR", "PQC", "HUI", "HPH", "VCA", "VII", "BMV"],
+    "strictRoute": true,
+    "qualityPenalty": 0
+  },
+  {
+    "name": "Vietnam Airlines Promotions",
+    "url": "https://www.vietnamairlines.com/vn/vi/offers/promotions",
+    "type": "html",
+    "airline": "Vietnam Airlines",
+    "parser": "vna-static",
+    "routeHints": ["SGN", "DAD", "HAN", "CXR", "PQC", "HUI", "HPH", "VCA", "VII", "BMV"],
+    "strictRoute": true,
+    "qualityPenalty": 0
+  },
+  {
+    "name": "Traveloka Vietnam Flights",
+    "url": "https://www.traveloka.com/vi-vn/flight",
+    "type": "html",
+    "airline": "Aggregator",
+    "parser": "aggregator-generic",
+    "routeHints": ["SGN", "DAD", "HAN", "CXR", "PQC", "HUI", "HPH", "VCA", "VII", "BMV"],
+    "strictRoute": false,
+    "qualityPenalty": 4
+  }
+]

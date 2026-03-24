@@ -1,0 +1,24 @@
+{
+  "profiles": [
+    {
+      "name": "dad-sgn-april",
+      "from": "2026-04-01",
+      "to": "2026-04-30",
+      "fromAirport": "DAD",
+      "toAirport": "SGN",
+      "onlyNew": true,
+      "minScore": 8,
+      "notes": "Đà Nẵng -> TP.HCM trong tháng 4"
+    },
+    {
+      "name": "han-dad-april",
+      "from": "2026-04-01",
+      "to": "2026-04-30",
+      "fromAirport": "HAN",
+      "toAirport": "DAD",
+      "onlyNew": true,
+      "minScore": 8,
+      "notes": "Hà Nội -> Đà Nẵng trong tháng 4"
+    }
+  ]
+}
