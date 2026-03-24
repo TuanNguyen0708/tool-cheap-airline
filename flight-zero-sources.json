@@ -21,7 +21,7 @@
   },
   {
     "name": "Bamboo Airways Promotions",
-    "url": "https://www.bambooairways.com/vn-vi/khuyen-mai",
+    "url": "https://www.bambooairways.com/vn/vi/explore/offers",
     "type": "html",
     "airline": "Bamboo Airways",
     "parser": "bamboo-static",
