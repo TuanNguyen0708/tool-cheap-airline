@@ -30,16 +30,6 @@
     "qualityPenalty": 0
   },
   {
-    "name": "Vietnam Airlines Promotions",
-    "url": "https://www.vietnamairlines.com/vn/vi/offers/promotions",
-    "type": "html",
-    "airline": "Vietnam Airlines",
-    "parser": "vna-static",
-    "routeHints": ["SGN", "DAD", "HAN", "CXR", "PQC", "HUI", "HPH", "VCA", "VII", "BMV"],
-    "strictRoute": true,
-    "qualityPenalty": 0
-  },
-  {
     "name": "Traveloka Vietnam Flights",
     "url": "https://www.traveloka.com/vi-vn/flight",
     "type": "html",
